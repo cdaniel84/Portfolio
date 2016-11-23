@@ -3,94 +3,63 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, intial-scale=1" />
-<title>Calvin Daniel Design</title>
+<title>CRA Digital</title>
 <link rel="icon" type="image/png" href="images/favicon.gif" />
 <link href="cradigital.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="cradigital.js" />
+    
+<!--Table Styles-->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/normalize.css" rel="stylesheet" type="text/css" />    
+   <!--icons-->
+<link href="http://ionicons.com/css/ionicons.min.css?v=2.0.1" rel="stylesheet" type="text/css">    
 <!-- jQuery library (served from Google) -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<!-- bxSlider Javascript file -->
-<script src="http://bxslider.com/lib/jquery.bxslider.js"></script>
-<!-- bxSlider CSS file -->
-<link href="http://bxslider.com/lib/jquery.bxslider.css" rel="stylesheet" />
 </head>
 <body>
 <div class="header">
 <nav>
-<li><a href="#introduction" id="intro-anchor">Home</a></li>
-<li><a href="#clients" id="anchor-1">Portfolio</a></li>
-<li><a href="#contact" id="anchor-2">Contact</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="about.html">Resum&eacute;</a></li>
+<li><a href="http://calvindaniel.com" target="_blank">Blog</a></li>    
 </nav>
 </div>
 <div class="wrapper">
-<div id="intro" align="center">
-</div>
-<section id="introduction">
-    <p>
-    Hello and welcome, my name is Calvin. I'm a New York based Web Developer currently working in Responsive Web Design, jQuery, and other fun stuff like WordPress, Bootstrap, etc. You can view my resume <a href="about.html">here</a>.
+<div id="about">
+  <p>
+    Hello, my name is Calvin Daniel, founder of CRA Digital. I'm a Web Developer based in New York City. I love working with local people who have big dreams and want to turn their passions into their careers. 
     </p>
-    </section>
-<section id="clients">
-<h3>Portfolio</h3>
-<div align="center">
-<ul class="bxslider">
-  <li><a href="http://normalason.com"><img src="images/image02.png" title="Norma Lason (formerly Handcrafted Grandeur)" /></a></li>
-  <li><a href="http://raquelonaquest.com"><img src="/images/raquelonaquest.png" title="Raquel on a Quest (blog)" /></a></li>
-</ul>    
+</div>      
+<div class="details">How I can Help You...  </div>
+<div id="tile">
+<img src="images/platforms.png" />
+<h4>Responsive Web Design</h4>
+<p>I have very experienced in created responsive websites which allow your users to enjoy your website whether they are on a desktop, tablet, or phone. Giving them 24/7 acccess to your content!</p>    
 </div>
-</section>
-<section id="contact">
-<form id="contact-form" action="/" method="post">
-        <h3>Get in touch</h3>
-        <h4>Fill in the form below, and I'll get back to you within 48 hours.</h4>
-        <div>
-                <label>
-                        <span>Name: (required)</span>
-                        <input placeholder="Please enter your name" type="text" tabindex="1" required>
-                </label>
-        </div>
-        <div>
-                <label>
-                        <span>Email: (required)</span>
-                        <input placeholder="Please enter your email address" type="email" tabindex="2" required>
-                </label>
-        </div>
-        <div>
-                <label>
-                        <span>Telephone: (required)</span>
-                        <input placeholder="Please enter your number" type="tel" tabindex="3" required>
-                </label>
-        </div>
-        <div>
-                <label>
-                        <span>Website: (required)</span>
-                        <input placeholder="Begin with http://" type="url" tabindex="4" required>
-                </label>
-        </div>
-        <div>
-                <label>
-                        <span>Message: (required)</span>
-                        <textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
-                </label>
-        </div>
-        <div>
-                <button name="submit" type="submit" id="contact-submit">Send Email</button>
-        </div>
-</form>
+<div id="tile">
+<i class="ion-social-wordpress" data-pack="social" data-tags="blogging"></i>    
+<h4>Wordpress Customization</h4>    
+</div>    
+<div id="findme">Where You Can Find Me...
 
-</section>
+<ul align="center">
+<li><a href="https://twitter.com/CalDan384" target="_blank"><i class="ion-social-twitter" data-pack="social" data-tags="follow, post, share"></i></a></li>
+<li><a href="https://www.linkedin.com/pub/calvin-daniel/4/905/622" target="_blank"><i class="ion-social-linkedin" data-pack="social" data-tags="connect"></i></a></li>
+<li><a href="http://instagram.com/cradigital" target="_blank"><i class="ion-social-instagram-outline" data-pack="social" data-tags="photo, camera, facebook"></i></a></li>
+</ul>
+</div>    
+
+
 </div>
 <footer>
-<ul align="center">
-<li><a href="https://twitter.com/CalDan384" target="_blank"><img src="images/twitter.png" /></a></li>
-<li><a href="https://www.linkedin.com/pub/calvin-daniel/4/905/622" target="_blank"><img src="images/linkedin.png" /></a></li>
-<li><a href="http://instagram.com/cradigital" target="_blank"><img src="images/instagram.png" /></a></li>
-</ul>
+<p>
+CRA Digital | Bronx, NY | <a href="mailto:cadaniel@outlook.com">cadaniel@outlook.com</a>   
+</p>
 </footer>
 <script>
 $('.bxslider').bxSlider({
   mode: 'fade',
-  captions: true
+  captions: true,
+  auto:true,    
 });   
 </script>
 </body>
